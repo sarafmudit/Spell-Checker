@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Signup</title>
+    <style>
+      .login{
+        height: 400px;
+        width: 500px;
+        float:right;
+        margin: 150px 320px 200px 320px;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        background-color: black;
+        border-radius: 15px;
+        opacity: 0.7;
+      }
+      body{
+          background-image: url('../img/spellcheck.jpg');
+          background-repeat: no-repeat;
+          background-size:cover;
+      }
+      input{
+        border: none;
+        border-bottom: 2px solid white;
+        background-color: black;
+        color:white;
+        padding: 5px;
+      }
+      #sub{
+        border-radius: 15px;
+        width: 90px;
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <script src="../jquery-1.12.1.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+    <div class="login">
+    <form action="signedup.php" method="post">
+      <h4 style="color:white;text-align:center">Enter Details</h4>
+      <p style="color:white">Username : <input type="text" name="username" required></p><br>
+      <p style="color:white">Password : <input type="password" name="password" required></p><br>
+      <p style="color:white">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspEmail : <input type="text" name="email" required></p><br>
+      <input id="sub" type="submit" name="submit" value="submit">
+    </form>
+  </div>
+</div>
+  </body>
+</html>
